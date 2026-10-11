@@ -135,3 +135,9 @@ fun MahasiswaCard(mahasiswa: StudentData) {
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.weight(1f)
             ) {
+                Text(
+                    text = mahasiswa.name,
+                    fontSize = 18.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = colorResource(id = R.color.white)
+                )
