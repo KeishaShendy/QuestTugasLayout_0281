@@ -92,3 +92,15 @@ fun AktivitasPertama(modifier: Modifier) {
                 MahasiswaCard(mahasiswa = mahasiswa)
             }
         }
+
+        // --- FOOTER ---
+        Spacer(modifier = Modifier.height(16.dp))
+        Text(
+            text = stringResource(id = R.string.footer_text),
+            fontSize = 12.sp,
+            color = colorResource(id = R.color.black),
+            modifier = Modifier.padding(bottom = 16.dp)
+        )
+    }
+}
+}
