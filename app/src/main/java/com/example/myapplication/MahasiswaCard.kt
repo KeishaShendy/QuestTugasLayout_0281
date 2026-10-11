@@ -129,3 +129,9 @@ fun MahasiswaCard(mahasiswa: StudentData) {
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
+
+            // Teks Tengah
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.weight(1f)
+            ) {
