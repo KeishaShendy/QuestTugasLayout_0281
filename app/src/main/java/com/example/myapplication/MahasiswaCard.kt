@@ -27,3 +27,8 @@ data class StudentData(
     val location: String,
     val cardColorRes: Int
 )
+
+@Composable
+fun AktivitasPertama(modifier: Modifier) {
+    // Menyiapkan data
+    }
