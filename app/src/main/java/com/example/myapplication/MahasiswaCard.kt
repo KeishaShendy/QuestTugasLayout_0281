@@ -31,4 +31,30 @@ data class StudentData(
 @Composable
 fun AktivitasPertama(modifier: Modifier) {
     // Menyiapkan data
-    }
+    val listMahasiswa = listOf(
+        StudentData(
+            name = stringResource(id = R.string.mhs1_name),
+            nim = stringResource(id = R.string.mhs1_nim),
+            location = stringResource(id = R.string.mhs1_loc),
+            cardColorRes = R.color.card_gray
+        ),
+        StudentData(
+            name = stringResource(id = R.string.mhs2_name),
+            nim = stringResource(id = R.string.mhs2_nim),
+            location = stringResource(id = R.string.mhs2_loc),
+            cardColorRes = R.color.card_purple
+        ),
+        StudentData(
+            name = stringResource(id = R.string.mhs3_name),
+            nim = stringResource(id = R.string.mhs3_nim),
+            location = stringResource(id = R.string.mhs3_loc),
+            cardColorRes = R.color.card_blue
+        ),
+        StudentData(
+            name = stringResource(id = R.string.mhs4_name),
+            nim = stringResource(id = R.string.mhs4_nim),
+            location = stringResource(id = R.string.mhs4_loc),
+            cardColorRes = R.color.card_green
+        )
+    )
+}
