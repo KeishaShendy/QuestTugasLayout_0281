@@ -20,3 +20,7 @@
     <string name="mhs4_name">Andhika Ryan</string>
     <string name="mhs4_nim">20240140263</string>
     <string name="mhs4_loc">Gamping, Sleman</string>
+    <!-- Footer & Logo -->
+    <string name="footer_text">Copyright, 2026</string>
+    <string name="logo_desc">Logo UMY</string>
+</resources>
