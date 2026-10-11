@@ -141,3 +141,14 @@ fun MahasiswaCard(mahasiswa: StudentData) {
                     fontWeight = FontWeight.Bold,
                     color = colorResource(id = R.color.white)
                 )
+                Text(
+                    text = mahasiswa.nim,
+                    fontSize = 12.sp,
+                    color = colorResource(id = R.color.text_secondary)
+                )
+                Text(
+                    text = mahasiswa.location,
+                    fontSize = 12.sp,
+                    color = colorResource(id = R.color.text_secondary)
+                )
+            }
