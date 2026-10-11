@@ -103,4 +103,13 @@ fun AktivitasPertama(modifier: Modifier) {
         )
     }
 }
-}
+
+@Composable
+fun MahasiswaCard(mahasiswa: StudentData) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = mahasiswa.cardColorRes)
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+    ) {
