@@ -57,4 +57,10 @@ fun AktivitasPertama(modifier: Modifier) {
             cardColorRes = R.color.card_green
         )
     )
-}
+
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
