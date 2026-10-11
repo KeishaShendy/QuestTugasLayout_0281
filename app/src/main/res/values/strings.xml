@@ -4,3 +4,19 @@
     <!-- Header -->
     <string name="header_title">Teknologi Informasi</string>
     <string name="header_subtitle">Universitas Muhammadiyah Yogyakarta</string>
+    <!-- Data Mahasiswa 1 -->
+    <string name="mhs1_name">Keisha Shendy </string>
+    <string name="mhs1_nim">20240140281</string>
+    <string name="mhs1_loc">Turi, Sleman</string>
+    <!-- Data Mahasiswa 2 -->
+    <string name="mhs2_name">Dimas Pramudita</string>
+    <string name="mhs2_nim">20240140273</string>
+    <string name="mhs2_loc">Kasihan, Bantul</string>
+    <!-- Data Mahasiswa 3 -->
+    <string name="mhs3_name">Muhammad Randyano</string>
+    <string name="mhs3_nim">20240140273</string>
+    <string name="mhs3_loc">Depok, Sleman</string>
+    <!-- Data Mahasiswa 4 -->
+    <string name="mhs4_name">Andhika Ryan</string>
+    <string name="mhs4_nim">20240140263</string>
+    <string name="mhs4_loc">Gamping, Sleman</string>
