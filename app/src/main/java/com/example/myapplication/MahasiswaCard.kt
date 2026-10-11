@@ -20,3 +20,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+data class StudentData(
+    val name: String,
+    val nim: String,
+    val location: String,
+    val cardColorRes: Int
+)
