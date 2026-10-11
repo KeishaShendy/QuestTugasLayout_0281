@@ -81,4 +81,14 @@ fun AktivitasPertama(modifier: Modifier) {
             textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(24.dp))
-}
+
+        // --- LIST OF CARDS ---
+        LazyColumn(
+            modifier = Modifier.weight(1f),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            items(listMahasiswa) { mahasiswa ->
+                // Memanggil fungsi Card di bawah
+                MahasiswaCard(mahasiswa = mahasiswa)
+            }
+        }
