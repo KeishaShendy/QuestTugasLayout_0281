@@ -152,3 +152,16 @@ fun MahasiswaCard(mahasiswa: StudentData) {
                     color = colorResource(id = R.color.text_secondary)
                 )
             }
+
+            // Logo Kanan
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.logo_desc),
+                modifier = Modifier
+                    .size(48.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+        }
+    }
+}
