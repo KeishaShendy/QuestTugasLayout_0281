@@ -64,3 +64,21 @@ fun AktivitasPertama(modifier: Modifier) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // --- HEADER ---
+        Spacer(modifier = Modifier.height(32.dp))
+        Text(
+            text = stringResource(id = R.string.header_title),
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(id = R.color.black),
+            textAlign = TextAlign.Center
+        )
+        Text(
+            text = stringResource(id = R.string.header_subtitle),
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Medium,
+            color = colorResource(id = R.color.black),
+            textAlign = TextAlign.Center
+        )
+        Spacer(modifier = Modifier.height(24.dp))
+}
